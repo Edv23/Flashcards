@@ -5,11 +5,8 @@
 `TODO://` This is a multiple choice application. When you click the right answer the index card will flip. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
-
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
+<img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker.gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode
@@ -18,7 +15,7 @@
 - [x] Build in logic to show the answer side when the card is tapped
 - [x] Push code to GitHub
 ## Optional
-- [x] Toggle the flashcard between the question side and the answer side
+- [] Toggle the flashcard between the question side and the answer side 
 - [x] Style the question and answer side of the card to better distinguish between the two sides
 - [x] Add selectable multiple choice answers beneath the card
 
