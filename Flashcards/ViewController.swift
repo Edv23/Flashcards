@@ -45,6 +45,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+    // Below is the logic to tap the card
     //@IBAction func didTapOnFlashCard(_ sender: Any) {
         //if frontLabel.isHidden == true {
             //frontLabel.isHidden = false }
@@ -53,6 +55,8 @@ class ViewController: UIViewController {
     //}
     
     
+    
+
     @IBAction func didTapOptionOne(_ sender: Any) {
         btnOptionOne.isHidden = true
     }
