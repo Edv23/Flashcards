@@ -45,8 +45,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
-    // Below is the logic to tap the card
+
+    // Below is the logic to tap the card. This is incase we do basics
     
     //@IBAction func didTapOnFlashCard(_ sender: Any) {
         //if frontLabel.isHidden == true {
