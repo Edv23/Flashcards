@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B5BED8228D1729700CA60B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BED8128D1729700CA60B2 /* AppDelegate.swift */; };
-		3B5BED8428D1729700CA60B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BED8328D1729700CA60B2 /* SceneDelegate.swift */; };
 		3B5BED8628D1729700CA60B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BED8528D1729700CA60B2 /* ViewController.swift */; };
 		3B5BED8928D1729700CA60B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5BED8728D1729700CA60B2 /* Main.storyboard */; };
 		3B5BED8B28D1729800CA60B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5BED8A28D1729800CA60B2 /* Assets.xcassets */; };
@@ -16,6 +14,9 @@
 		3B5BED9928D1729800CA60B2 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BED9828D1729800CA60B2 /* FlashcardsTests.swift */; };
 		3B5BEDA328D1729800CA60B2 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BEDA228D1729800CA60B2 /* FlashcardsUITests.swift */; };
 		3B5BEDA528D1729800CA60B2 /* FlashcardsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BEDA428D1729800CA60B2 /* FlashcardsUITestsLaunchTests.swift */; };
+		3B5D5DEB28E9FA6100D59059 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D5DEA28E9FA6100D59059 /* CreationViewController.swift */; };
+		3B5D5DEE28E9FA8000D59059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BED8128D1729700CA60B2 /* AppDelegate.swift */; };
+		3B5D5DEF28E9FA8000D59059 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BED8328D1729700CA60B2 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3B5BED9E28D1729800CA60B2 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5BEDA228D1729800CA60B2 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
 		3B5BEDA428D1729800CA60B2 /* FlashcardsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B5D5DEA28E9FA6100D59059 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		3B5BED8028D1729700CA60B2 /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				3B5BED8128D1729700CA60B2 /* AppDelegate.swift */,
-				3B5BED8328D1729700CA60B2 /* SceneDelegate.swift */,
 				3B5BED8528D1729700CA60B2 /* ViewController.swift */,
 				3B5BED8728D1729700CA60B2 /* Main.storyboard */,
+				3B5D5DEA28E9FA6100D59059 /* CreationViewController.swift */,
 				3B5BED8A28D1729800CA60B2 /* Assets.xcassets */,
 				3B5BED8C28D1729800CA60B2 /* LaunchScreen.storyboard */,
 				3B5BED8F28D1729800CA60B2 /* Info.plist */,
+				3B5BED8128D1729700CA60B2 /* AppDelegate.swift */,
+				3B5BED8328D1729700CA60B2 /* SceneDelegate.swift */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B5D5DEE28E9FA8000D59059 /* AppDelegate.swift in Sources */,
 				3B5BED8628D1729700CA60B2 /* ViewController.swift in Sources */,
-				3B5BED8228D1729700CA60B2 /* AppDelegate.swift in Sources */,
-				3B5BED8428D1729700CA60B2 /* SceneDelegate.swift in Sources */,
+				3B5D5DEB28E9FA6100D59059 /* CreationViewController.swift in Sources */,
+				3B5D5DEF28E9FA8000D59059 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

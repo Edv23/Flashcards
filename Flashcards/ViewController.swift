@@ -62,6 +62,19 @@ class ViewController: UIViewController {
         btnOptionOne.isHidden = true
     }
     
+    func updateFlashcard(question: String, answer: String, extraAnswerOne: String, extraAnswerTwo: String){
+        
+        frontLabel.text = question
+        backLabel.text = answer
+        
+        btnOptionOne.setTitle(extraAnswerOne, for: .normal)
+        btnOptionTwo.setTitle(answer, for: .normal)
+        btnOptionThree.setTitle(extraAnswerTwo, for: .normal)
+        
+        
+        // Do stuff here
+    }
+    
     @IBAction func didTapOptionThree(_ sender: Any) {
         btnOptionThree.isHidden = true
     }
@@ -75,5 +88,8 @@ class ViewController: UIViewController {
             backLabel.textColor = #colorLiteral(red: 0.5818830132, green: 0.2156915367, blue: 1, alpha: 1)
             backLabel.backgroundColor = #colorLiteral(red: 0.8374180198, green: 0.8374378085, blue: 0.8374271393, alpha: 1) }
     
-        
     }
+
+
+
+
