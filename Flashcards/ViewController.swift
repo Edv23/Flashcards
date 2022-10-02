@@ -45,51 +45,61 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
     // Below is the logic to tap the card. This is incase we do basics
     
     //@IBAction func didTapOnFlashCard(_ sender: Any) {
-        //if frontLabel.isHidden == true {
-            //frontLabel.isHidden = false }
-        
-        //else { frontLabel.isHidden = true }
+    //if frontLabel.isHidden == true {
+    //frontLabel.isHidden = false }
+    
+    //else { frontLabel.isHidden = true }
     //}
     
     
     
-
+    
     @IBAction func didTapOptionOne(_ sender: Any) {
         btnOptionOne.isHidden = true
     }
     
-    func updateFlashcard(question: String, answer: String, extraAnswerOne: String, extraAnswerTwo: String){
-        
-        frontLabel.text = question
-        backLabel.text = answer
-        
-        btnOptionOne.setTitle(extraAnswerOne, for: .normal)
-        btnOptionTwo.setTitle(answer, for: .normal)
-        btnOptionThree.setTitle(extraAnswerTwo, for: .normal)
-        
-        
-        // Do stuff here
-    }
     
     @IBAction func didTapOptionThree(_ sender: Any) {
         btnOptionThree.isHidden = true
     }
     
     @IBAction func didTapOptionTwo(_ sender: Any) {
-            frontLabel.isHidden = true
-            backLabel.isHidden = false
-            btnOptionOne.isHidden = true
-            btnOptionThree.isHidden = true
-            btnOptionTwo.isHidden = false
-            backLabel.textColor = #colorLiteral(red: 0.5818830132, green: 0.2156915367, blue: 1, alpha: 1)
-            backLabel.backgroundColor = #colorLiteral(red: 0.8374180198, green: 0.8374378085, blue: 0.8374271393, alpha: 1) }
-    
+        frontLabel.isHidden = true
+        backLabel.isHidden = false
+        btnOptionOne.isHidden = true
+        btnOptionThree.isHidden = true
+        btnOptionTwo.isHidden = false
+        backLabel.textColor = #colorLiteral(red: 0.5818830132, green: 0.2156915367, blue: 1, alpha: 1)
+        backLabel.backgroundColor = #colorLiteral(red: 0.8374180198, green: 0.8374378085, blue: 0.8374271393, alpha: 1) }
+   
+    func updateFlashcard(question: String, answer: String, extraAnswerOne: String, extraAnswerTwo: String){
+        
+        frontLabel.text = question
+        backLabel.text = extraAnswerOne
+        
+        btnOptionOne.text = answer
+        btnOptionTwo.text = extraAnswerOne
+        btnOptionThree.text = extraAnswerTwo
+        
+        // Do stuff here
     }
-
-
-
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // We know the destination of the segue is the Navigation Controller
+        
+        let navigationController = segue.destination as! UINavigationController
+        
+        //We know the Navigation Controller only contains a Creation View Controller
+        
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        //We set the flashcardsController Property to self
+        
+        creationController.flashcardsController  = self
+    }
+    
+}
