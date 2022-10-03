@@ -4,9 +4,11 @@
 `TODO://` Enhanced the previous version of the app allowing the user to change the question and the nultiple choice answer to the flashcard. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+`TODO://`
 
 <img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker%20(1).gif" width=200><br>
+
+Cancel out: 
 <img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker%20(2).gif" width=200><br>
 
 ## Required
