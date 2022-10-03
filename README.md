@@ -9,6 +9,7 @@
 <img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker%20(1).gif" width=200><br>
 
 Cancel out: 
+
 <img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker%20(2).gif" width=200><br>
 
 ## Required
