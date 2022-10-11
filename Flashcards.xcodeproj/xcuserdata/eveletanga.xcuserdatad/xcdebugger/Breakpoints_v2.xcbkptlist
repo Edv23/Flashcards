@@ -46,10 +46,10 @@
             filePath = "Flashcards/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
-            landmarkName = "prepare(for:sender:)"
-            landmarkType = "7">
+            startingLineNumber = "240"
+            endingLineNumber = "240"
+            landmarkName = "ViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -66,6 +66,54 @@
             endingLineNumber = "15"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10202507-D989-47A4-B35A-9089313E1146"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Flashcards/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "readSavedFlashcards()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "10202507-D989-47A4-B35A-9089313E1146 - bb934d714f6543d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Flashcards.ViewController.readSavedFlashcards() -&gt; ()"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eveletanga/Documents/Flashcards/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "10202507-D989-47A4-B35A-9089313E1146 - 3976f62fbb3a707b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Dictionary&lt;Swift.String, Swift.String&gt;) -&gt; Flashcards.Flashcard in Flashcards.ViewController.readSavedFlashcards() -&gt; ()"
+                  moduleName = "Flashcards"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eveletanga/Documents/Flashcards/Flashcards/Flashcards/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "212"
+                  endingLineNumber = "212"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
