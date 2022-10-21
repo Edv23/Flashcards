@@ -4,7 +4,7 @@
 `TODO://`Enhanced the previous version of the app allowing the user to see app icon, splash screen, animation, and slide on next and previous.
 
 ### App Walk-though
-<img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker%20(2).gif" width=200><br>
+<img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker%20(3).gif" width=200><br>
 
 ## Required
 - [x] User should see the app icon 
