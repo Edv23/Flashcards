@@ -1,3 +1,22 @@
+## Lab 3
+
+### App Description
+`TODO://` Enhanced the previous version of the app allowing the user to update the mutiple choice flash card and toggel back and forth between multiple ones. Stores the previous flashacrd in the disk. 
+
+### App Walk-though
+
+<img src="https://github.com/Edv23/Flashcards/blob/main/ezgif.com-gif-maker.gif" width=200><br>
+
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [x] User can store multiple choice questions
+
 ## Lab 2
 
 ### App Description
